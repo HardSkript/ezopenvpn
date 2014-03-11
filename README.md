@@ -20,6 +20,8 @@ Once it ends, you can run it again to add more users.
 ###I want to run my own VPN but don't have a server for that
 There are reliable providers where you can get a little VPS for even less than one buck a month.
 
+
+- [BlueVM (Buffalo, NY - Chicago, Illinois - Dallas, Texas - Los Angeles, California)](https://bluevm.com)
 - [Secure Dragon (Tampa, FL - Denver, CO - Los Angeles, CA - Chicago, IL)](https://securedragon.net/openvz.php)
 - [High Speed Web (Los Angeles, CA)](http://www.highspeedweb.net/)
 - [IperWeb (Dallas, TX)](http://my.iperweb.com/cart/)
