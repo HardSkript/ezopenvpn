@@ -65,9 +65,6 @@ if [ -e /etc/openvpn/server.conf ]; then
 			
 			cp $CLIENT.conf $CLIENT.ovpn
 			
-			sed -i "s|ca ca.crt|ca [inline]|" $CLIENT.ovpn
-			sed -i "s|cert $CLIENT.crt|cert [inline]|" $CLIENT.ovpn
-			sed -i "s|key $CLIENT.key|key [inline]|" $CLIENT.ovpn
 			echo -e "keepalive 10 60\n" >> $CLIENT.ovpn
 			
 			echo "<ca>" >> $CLIENT.ovpn
@@ -235,9 +232,6 @@ else
 	
 	cp $CLIENT.conf $CLIENT.ovpn
 	
-	sed -i "s|ca ca.crt|ca [inline]|" $CLIENT.ovpn
-	sed -i "s|cert $CLIENT.crt|cert [inline]|" $CLIENT.ovpn
-	sed -i "s|key $CLIENT.key|key [inline]|" $CLIENT.ovpn
 	echo -e "keepalive 10 60\n" >> $CLIENT.ovpn
 	
 	echo "<ca>" >> $CLIENT.ovpn
